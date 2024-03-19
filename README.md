@@ -27,7 +27,7 @@ Run ```/data/dbus-dtupros/restart.sh```
 # Debugging
 Check logs with ```tail -n 100 -f /var/log/dbus-dtupros/current | tai64nlocal```
 
-The service status can be checked with ```svstat svstat /service/dbus-dtupros```
+The service status can be checked with ```svstat /service/dbus-dtupros```
 
 # Inspiration
 This project was highly inspired by the following projects:
