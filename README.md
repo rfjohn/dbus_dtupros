@@ -15,18 +15,19 @@ Advantages:
 1. Ensure you have SSH access to your Victron GX device.
 2. Copy the dbus_dtupros folder to /data/dbus_dtupros
 3. Edit config.ini to your needs
-4. Make install.sh executable: chmod +x install.sh
-5. Run /data/dbus-dtupros/install.sh
+4. Make install.sh executable: ```chmod +x install.sh```
+5. Run ```/data/dbus-dtupros/install.sh```
 
 # Uninstall
-Run /data/dbus-dtupros/uninstall.sh
+Run ```/data/dbus-dtupros/uninstall.sh```
 
 # Restart
-Run /data/dbus-dtupros/restart.sh
+Run ```/data/dbus-dtupros/restart.sh```
 
 # Debugging
-Check logs with tail -n 100 -f /var/log/dbus-dtupros/current | tai64nlocal
-The service status can be checked with svstat svstat /service/dbus-dtupros
+Check logs with ```tail -n 100 -f /var/log/dbus-dtupros/current | tai64nlocal```
+
+The service status can be checked with ```svstat svstat /service/dbus-dtupros```
 
 # Inspiration
 This project was highly inspired by the following projects:
