@@ -34,3 +34,5 @@ The service status can be checked with ```svstat /service/dbus-dtupros```
 This project was highly inspired by the following projects:
 - https://github.com/mr-manuel/venus-os_dbus-mqtt-pv
 - https://github.com/henne49/dbus-opendtu
+
+<meta name="google-site-verification" content="aI2pXeSe5g8XwUtD-F-iiPPX87PPF56z5vX0ZNvnWqc" />
