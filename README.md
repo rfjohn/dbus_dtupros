@@ -8,7 +8,7 @@ I wrote this script for myself. I'm not responsible if you damage something usin
 Integrate Hoymiles 3rd Gen DTU-Pro S into Victron Energy's (Venus OS) ecosystem. This project is intended for people who do not want to use OpenDTU but stay with the Hoymiles DTU Pro S.
 
 Advantages:
-- Ethernet connection from DTU-Pro S to the Venus GX device (in my case, a Raspberry Pi 4 with Venus OS installed)
+- Ethernet connection from DTU-Pro S to the Venus GX device (in my case, a Raspberry Pi 4 with Venus OS v3.14 installed)
 - Parallel use of Hoymiles Cloud (S-Miles) and Victrons VRM
 - Maintainance by Homiles (like inverter firmware updates, etc.) possible 
 
