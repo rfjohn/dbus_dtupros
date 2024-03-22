@@ -3,12 +3,10 @@
 from gi.repository import GLib  # pyright: ignore[reportMissingImports]
 import platform
 import logging
-# from logging.handlers import RotatingFileHandler
 import sys
 import os
 from time import sleep, time
 import configparser
-import _thread
 import threading
 from dtupros import DtuProS
 
@@ -322,8 +320,6 @@ class Inverter:
 
 
 def main():
-    _thread.daemon = True  # allow the program to quit
-
     from dbus.mainloop.glib import DBusGMainLoop  # pyright: ignore[reportMissingImports]
     # Have a mainloop, so we can send/receive asynchronous calls to and from dbus
     DBusGMainLoop(set_as_default=True)
