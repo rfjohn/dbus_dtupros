@@ -83,7 +83,7 @@ def fetch_data():
                 shared_data = dtu_data
                 last_changed = time()
                 duration = last_changed - start
-                logging.info(f"DTU: read {len(dtu_data)} data entries in {duration:.1f} sec")
+                logging.debug(f"DTU: read {len(dtu_data)} data entries in {duration:.1f} sec")
         except Exception as e:
             logging.error(f"Exception while fetching data: {e}")
 
