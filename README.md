@@ -34,8 +34,8 @@ The service status can be checked with ```svstat /service/dbus-dtupros```
 dbus_dtupros relies on the library pymodbus.
 Venus-OS comes with pymodbus 2.5.3 installed. Check via ```python -m pip list | grep pymodbus```.
 - Upgrade to most recent: ```pip3 install --upgrade pymodbus```
-- Downgrade: ```pip install pymodbus==2.5.3```
-Make sure you have the correct line enabled in ```dtupros.py```` (line 4 or 5, depending on your pymodbus library version).
+- Downgrade: ```pip3 install pymodbus==2.5.3```
+Make sure you have the correct line enabled in ```dtupros.py``` (line 4 or 5, depending on your pymodbus library version).
 
 # Inspiration
 This project was highly inspired by the following projects:
