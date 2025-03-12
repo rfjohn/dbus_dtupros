@@ -1,8 +1,8 @@
 import logging
 
 # pip3 install pymodbus
-# from pymodbus.client import ModbusTcpClient  # desktop PC
-from pymodbus.client.sync import ModbusTcpClient  # Raspberry Pi
+# from pymodbus.client import ModbusTcpClient  # recent pymodbus
+from pymodbus.client.sync import ModbusTcpClient  # pymodbus <=v2.5.3
 # from pymodbus import ModbusException
 
 
